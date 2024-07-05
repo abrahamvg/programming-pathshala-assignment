@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PPA Hiring Assignment
+- Please raise an issue if you have additional questions regarding the assignment.
+- **DO NOT** raise a PR on this repository, create your repository and submit the link through the submission form
+- You will be judged on your code quality, file organization, commit names, and best practices throughout the assignment
 
-## Getting Started
+## Tasks : 
+- [x] Create a website similar to the one provided in the Figma design above
+- [ ] Create a feature to toggle between light and dark mode
+- [ ] Add Responsive design to work with mobile view
+- [ ] Add a working carousel for the first section
+- [x] Add a "count-up animation" in the statistics section
 
-First, run the development server:
+## Clarifications 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Task 1 : 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Bonus: Optimize for faster page load time
+- Additional improvements to the design are welcomed you do not have to stick to the design mentioned strictly.
+- Technologies to be used: Next.js, Tailwind CSS, Zustand, ShadCN
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Task 2 :
+- Add an item in the header to toggle between light mode and dark mode
+- The implementation should not be naive, you will be judged on how efficiently you implement this feature
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Task 3 :
+- The UI should look good for all screen sizes (including mobile 320px to 4k screens)
+- The responsive design is not strict as long as it looks good on mobile, The design is left to the discretion of the person submitting the assignment
 
-## Learn More
+### Task 4 :
+- Add a working carousel for the first section (The main heading "Lessons and insights from 8 years")
+- On sliding the whole section should move like a carousel (The title, description, and image for the other 2 slides are left to your discretion)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Task 5 :
+- Add a "count-up animation" to the section that says "Helping a local business reinvent itself"
+- when this section loads the number should start from 0 and reach its desired end value in Figma
+- The animation should be smooth
