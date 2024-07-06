@@ -43,8 +43,6 @@ export default function SlidingCarousel() {
         }
 
         setStartX(null);
-
-        // console.log(`Dragged ${currentDistance}px on the x-axis`);
       }
     },
     [isDragging, startX]
@@ -95,17 +93,3 @@ export default function SlidingCarousel() {
     </div>
   );
 }
-
-// onMouseDown={(e) => {
-//   e.currentTarget.style.cursor = "grabbing";
-//   const rect = e.currentTarget.getBoundingClientRect();
-//   const width = rect.width;
-//   console.log(e.pageX)
-//   const translateX = (width - e.pageX)/width*100;
-//   e.currentTarget.style.transform = `translateX(-${translateX}%)`;
-//   // setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-// }}
-
-// onMouseUp={(e) => {
-//   e.currentTarget.style.cursor = "grab";
-// }}
