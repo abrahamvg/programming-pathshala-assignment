@@ -46,7 +46,7 @@ export default function Navbar() {
   };
   return (
     <div>
-      <header className="flex justify-between items-center py-8 md:px-28 px-16 bg-neutral-silver dark:text-neutral-grey">
+      <header className="flex justify-between items-center py-8 md:px-28 sm:px-16 px-8 bg-neutral-silver dark:text-neutral-grey">
         <div className="flex items-center space-x-2">
           <Image src="logo.svg" alt="logo" width={35} height={24} />
           <span className="text-2xl font-bold text-secondary">Nexcent</span>
