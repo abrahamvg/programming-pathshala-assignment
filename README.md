@@ -7,7 +7,7 @@
 - [x] Create a website similar to the one provided in the Figma design above
 - [x] Create a feature to toggle between light and dark mode
 - [ ] Add Responsive design to work with mobile view
-- [ ] Add a working carousel for the first section
+- [x] Add a working carousel for the first section
 - [x] Add a "count-up animation" in the statistics section
 
 ## Clarifications 

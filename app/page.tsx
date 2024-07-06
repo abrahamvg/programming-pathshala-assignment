@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import { Button } from "@/components/ui/button";
 import StatCard from "./components/StatCard";
 import BlogCard from "./components/BlogCard";
+import SlidingCarousel from "./components/SlidingCarousel";
 
 const cardContent = [
   {
@@ -69,6 +70,12 @@ export const marketingContent = [
 export default function Home() {
   return (
     <div className="space-y-10 dark:bg-background">
+
+      {/* Hero Section */}
+      <section>
+        <SlidingCarousel/>
+      </section>
+
       {/* Our Clients Section*/}
       <section className="px-20 md:px-36 space-y-4">
         <div className="text-center space-y-2">
