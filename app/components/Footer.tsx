@@ -12,10 +12,10 @@ const SocialIcon = ({ imgUrl }: { imgUrl: string }) => {
 };
 
 const socialMediaContent = [
-  "/SocialMedia/instagram.svg",
-  "/SocialMedia/dribble.svg",
-  "/SocialMedia/twitter.svg",
-  "/SocialMedia/youtube.svg",
+  "/socialMedia/instagram.svg",
+  "/socialMedia/dribble.svg",
+  "/socialMedia/twitter.svg",
+  "/socialMedia/youtube.svg",
 ];
 
 export const footerLinks = [

@@ -225,7 +225,7 @@ export default function Home() {
           <div className="flex flex-row flex-wrap justify-between items-center gap-y-4">
             {[1, 2, 3, 4, 5, 6, 7].map((value) => (
               <Image
-                src={`/Clients/client${value}.svg`}
+                src={`/clients/client${value}.svg`}
                 width={48}
                 height={48}
                 alt={`client-${value}`}
