@@ -46,7 +46,7 @@ const statContent = [
   },
 ];
 
-export const marketingContent = [
+const marketingContent = [
   {
     id: 1,
     title: "Creating Streamlined Safeguarding Processes with OneRen.",
