@@ -155,7 +155,7 @@ export default function Home() {
         </div>
         <div className="grid md:grid-cols-2 gap-x-8 gap-y-10 grid-cols-1 items-center mt-4">
           {statContent.map((card) => (
-            <div key={card.title} className="min-w-64">
+            <div key={card.title} className="lg:min-w-64 w-full">
               <StatCard {...card} />
             </div>
           ))}
@@ -277,7 +277,7 @@ export default function Home() {
 
       {/* Book A Demo */}
       <section className="text-center bg-neutral-silver mt-5 py-12 dark:text-white">
-        <h1 className="font-bold lg:text-6xl w-full md:text-4xl text-2xl">
+        <h1 className="font-semibold lg:text-6xl w-full md:text-4xl text-2xl">
           Pellentesque suscipit
           <br />
           fringilla libero eu.
